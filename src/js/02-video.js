@@ -1,7 +1,7 @@
 import Vimeo from '@vimeo/player';
 import throttle  from 'lodash.throttle';
 
-const STORAGE_KEY = 'feedback-form-state';
+const STORAGE_KEY = 'videoplayer-current-time';
 const iframeRef = document.querySelector('iframe');
 const player = new Vimeo(iframeRef);
 
